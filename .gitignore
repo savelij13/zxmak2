@@ -1,3 +1,6 @@
 _bindebug
+_binrelease
 */**/obj
 .vs
+*.suo
+*.bak

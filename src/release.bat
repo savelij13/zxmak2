@@ -1,2 +1,3 @@
 cd _binrelease
-winrar a ZXMAK2757.ZIP @..\filelist.txt
+7z a zxmak2939.7zP @..\filelist.txt
+cd ..

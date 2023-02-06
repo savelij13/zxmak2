@@ -77,11 +77,13 @@ namespace ZXMAK2.Hardware.Evo
             }
             if (File.Exists(m_ideFileName))
             {
-                m_ata.Devices[0].DeviceInfo.Load(m_ideFileName);
+                m_ata.Devices[0].DeviceInfo.LoadMaster(m_ideFileName);
+                m_ata.Devices[1].DeviceInfo.LoadMaster(m_ideFileName);
             }
             else
             {
-                m_ata.Devices[0].DeviceInfo.Save(m_ideFileName);
+                m_ata.Devices[0].DeviceInfo.SaveMaster(m_ideFileName);
+                m_ata.Devices[1].DeviceInfo.SaveSlave(m_ideFileName);
             }
         }
 

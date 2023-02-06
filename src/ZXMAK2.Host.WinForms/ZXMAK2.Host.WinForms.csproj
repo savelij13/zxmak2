@@ -199,6 +199,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FormAbout.resx">
       <DependentUpon>FormAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FormKeyboardHelp.resx">
       <DependentUpon>FormKeyboardHelp.cs</DependentUpon>
